@@ -1,0 +1,24 @@
+{
+  "name": "qore/admin",
+  "type": "qore-module",
+  "license": "MIT",
+  "description": "The admin and configuration module for Qore Framework",
+  "keywords": ["qore","framework", "module", "admin"],
+  "authors": [
+    {
+      "name": "Andrew Quackenbos",
+      "email": "a.quackenbos@gmail.com",
+      "homepage": "http://andrew.quackenbos.me",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=7.0",
+	"qore/framework": "*",
+  },
+  "autoload": {
+    "psr-0": {
+      "Qore": "src"
+    }
+  }
+}
