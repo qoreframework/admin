@@ -14,7 +14,7 @@
   ],
   "require": {
     "php": ">=7.0",
-	"qore/framework": "*",
+	"qore/framework": "*"
   },
   "autoload": {
     "psr-0": {
